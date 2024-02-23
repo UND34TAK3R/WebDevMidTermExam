@@ -1,0 +1,108 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+main{
+    display: grid;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 125px;
+  }
+
+  .Logos{
+    width: 20%;
+    text-align: center;
+  }
+
+  .form{
+    width: 100%;
+    
+  }
+
+  .label-desc{
+    padding-bottom: 20px;
+    color: rgb(158, 154, 154);
+  }
+
+  button{
+    width: 93.5%;
+    padding: 20px;
+    color: white;
+    background-color: rgb(81, 211, 243);
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color:rgb(58, 153, 177);
+  }
+
+  textarea{
+    margin-top: 10px;
+  }
+
+  input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 0px;
+  }
+  .personal input{
+    margin-bottom:10px;
+  }
+  
+  select{
+    width: 90%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .row-border {
+    border-left: 2px solid grey;
+    height: 450px;
+    margin-left: 30px;
+    margin-right: 3em;
+    top: 0;
+}
+
+.form label{
+font-size: 20px;
+}
+#note{
+    font-size: 15px;
+}
+
+#Date{
+    width: 42.5%;
+    margin-right: 7px;
+    margin-top: 20px;
+    border: 2px solid black;
+    background-color: rgb(229, 230, 230);
+}
+
+#Time{
+    width: 42.5%;
+    border: 2px solid black;
+    background-color: rgb(229, 230, 230);
+}
+
+input[type=time]::-webkit-datetime-edit-ampm-field {
+    display: none;
+    }
+
+    img #Address{
+        color: hsl(272, 61%, 34%);
+
+    }
+
